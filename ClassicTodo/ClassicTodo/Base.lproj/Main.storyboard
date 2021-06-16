@@ -31,7 +31,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Classic ToDo" id="Uuu-y7-XOY">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="KdP-eh-teK"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="KdP-eh-teK">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="s4j-96-hPQ" id="SQV-Vp-93D"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aXl-0f-l8N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
